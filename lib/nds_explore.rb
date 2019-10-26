@@ -9,6 +9,6 @@ end
 
 def print_first_directors_movie_titles
   for item in directors_database[0][:movies] do
-    puts "#{item[:title]} \n"
+    puts "#{item[:title]}\n"
   end
 end
